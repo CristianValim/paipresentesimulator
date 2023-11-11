@@ -17,6 +17,9 @@ export function Button(props) {
       onMouseDown={() => setMouseDown(true)}
       // Quando o mouse é liberado, a função arrow é chamada, definindo isMouseDown como false.
       onMouseUp={() => setMouseDown(false)}
+
+      onTouchStart={() => setMouseDown(true)}
+      onTouchEnd={() => setMouseDown(false)}
       // Repassa todas as outras propriedades (props) que podem ter sido passadas para este componente.
       {...props}
     >

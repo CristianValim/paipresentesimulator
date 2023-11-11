@@ -10,7 +10,8 @@ export const Container = styled.button`
     border-radius: 50%;
 
     @media (max-width: 600px){
-    width: 10rem;
+    width: 15rem;
+    margin-bottom: 5rem;
     }
     }
 `;

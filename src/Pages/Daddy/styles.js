@@ -15,8 +15,8 @@ padding-top: 45rem;
 }
 
   @media (max-width: 600px){
-    flex-direction: column-reverse;
-    padding-top: 15rem;
+    flex-direction: column;
+    padding-top: 12rem;
     gap: 5rem;
 
     width: 90%;
