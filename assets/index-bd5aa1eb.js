@@ -88,8 +88,8 @@ padding-top: 45rem;
 }
 
   @media (max-width: 600px){
-    flex-direction: column-reverse;
-    padding-top: 15rem;
+    flex-direction: column;
+    padding-top: 12rem;
     gap: 5rem;
 
     width: 90%;
@@ -109,10 +109,11 @@ padding-top: 45rem;
     border-radius: 50%;
 
     @media (max-width: 600px){
-    width: 10rem;
+    width: 15rem;
+    margin-bottom: 5rem;
     }
     }
-`,Rm="/paipresentesimulator/assets/btnNormal-057558cb.webp",Lm="/paipresentesimulator/assets/btnPressed-c4ac19ea.webp";function $m(e){const[t,n]=Ze.useState(!1);return j.jsx(Tm,{type:"button",onMouseDown:()=>n(!0),onMouseUp:()=>n(!1),...e,children:j.jsx("img",{src:t?Lm:Rm,alt:"Button Image"})})}const Im=tn.img`
+`,Rm="/paipresentesimulator/assets/btnNormal-057558cb.webp",Lm="/paipresentesimulator/assets/btnPressed-c4ac19ea.webp";function $m(e){const[t,n]=Ze.useState(!1);return j.jsx(Tm,{type:"button",onMouseDown:()=>n(!0),onMouseUp:()=>n(!1),onTouchStart:()=>n(!0),onTouchEnd:()=>n(!1),...e,children:j.jsx("img",{src:t?Lm:Rm,alt:"Button Image"})})}const Im=tn.img`
   width: 100%;
   max-width: 80rem;
 `,Om="/paipresentesimulator/assets/logo-c2683942.png";function Dm(){return j.jsx(Im,{src:Om,alt:"Pai Ausente Simulator"})}const Mm=tn.div`
