@@ -4,7 +4,7 @@ import { Voices } from './Audios';
 // Função que retorna o caminho do arquivo de áudio com base no gênero e na necessidade selecionados
 export const getAudioPath = (selectedGender, selectedNeed) => {
   // Caminho base para os arquivos de áudio
-  const baseAudioPath = './dist/assets/voices/';
+  const baseAudioPath = './assets/voices/';
 
   // Obtém a lista de arquivos associados ao gênero e à necessidade selecionados
   const fileList = Voices[selectedGender][selectedNeed];
