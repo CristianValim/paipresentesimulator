@@ -16,7 +16,7 @@ padding-top: 45rem;
 
   @media (max-width: 600px){
     flex-direction: column;
-    padding-top: 12rem;
+    padding-top: 20rem;
     gap: 5rem;
 
     width: 90%;
