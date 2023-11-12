@@ -32,7 +32,6 @@ export const Container = styled.div`
     font-size: 1.8rem;
     flex-direction: column;
     align-items: center;
-    margin: 1rem auto;
 
     > select {
         padding: .7rem;
