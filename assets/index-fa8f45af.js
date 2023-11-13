@@ -229,7 +229,7 @@ padding-bottom: 10rem;
     gap: 1rem;
     font-size: 1.8rem;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
 
     > select {
         padding: .7rem;
@@ -244,9 +244,10 @@ padding-bottom: 10rem;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   
-  position: absolute;
-  bottom: 0px;
-
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  
   display: flex;
   gap: .5rem;
 
