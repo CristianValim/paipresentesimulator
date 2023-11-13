@@ -1,5 +1,7 @@
 # Pai Presente Simulator
 
+![Banner](banner.png)
+
 ## Descrição do Projeto
 
 O **Pai Presente Simulator** é um projeto simples desenvolvido para praticar ReactJS, Git, e técnicas de deploy. Neste simulador, os usuários podem selecionar seus pronomes de tratamento e necessidades. Ao apertar um botão, o site dispara um áudio com frases de consolação, simulando um pai falando para o filho.
