@@ -1,16 +1,16 @@
-# Pai Presente Simulator
+# :revolving_hearts: Pai Presente Simulator
 
 ![Banner](banner.png)
 
-## Descrição do Projeto
+## :computer: Descrição do Projeto
 
 O **Pai Presente Simulator** é um projeto simples desenvolvido para praticar ReactJS, Git, e técnicas de deploy. Neste simulador, os usuários podem selecionar seus pronomes de tratamento e necessidades. Ao apertar um botão, o site dispara um áudio com frases de consolação, simulando um pai falando para o filho.
 
-## Propósito Principal
+## :mag: Propósito Principal
 
 O principal propósito deste projeto é oferecer uma oportunidade de prática para desenvolvedores interessados em aprimorar suas habilidades em Javascript, ReactJS, e Git.
 
-## Uso
+## :wrench: Uso
 
 O projeto é intuitivo e fácil de usar. Acesse o site disponível no [GitHub Pages](https://cristianvalim.github.io/paipresentesimulator/) e, na tela principal, você encontrará um menu e um botão de interação. Selecione seus pronomes e necessidades, pressione o botão, e desfrute de frases consoladoras.
 
@@ -24,7 +24,7 @@ Você é bem-vindo(a) a contribuir com sugestões de melhoria. Siga as instruç�
 4. Push para a branch: `git push origin nova-feature`.
 5. Abra um Pull Request.
 
-## Documentação
+## :hash: Documentação
 
 ### Instalação
 
@@ -42,19 +42,6 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
     ```bash
     npm install
     ```
-
-### Uso
-
-O **Pai Presente Simulator** é fácil de usar. Siga estas etapas:
-
-1. Acesse o site disponível no [GitHub Pages](https://cristianvalim.github.io/paipresentesimulator/).
-2. Na tela principal, você verá um menu com opções para selecionar pronomes de tratamento e necessidades.
-3. Após fazer suas seleções, clique no botão de interação.
-4. Ouça as frases de consolação simuladas, criando uma experiência de "pai presente".
-
-### Configuração
-
-Não há configurações especiais para este projeto. Basta seguir as instruções de instalação e começar a usá-lo.
 
 ### Exemplos
 
@@ -76,19 +63,19 @@ function App() {
 export default App;
 ```
 
-## Licença
+## :book: Licença
 
 Este projeto é licenciado sob a [Licença MIT](LICENSE).
 
-## Contato
+## :iphone: Contato
 
 Para entrar em contato, envie uma mensagem via [LinkedIn](https://www.linkedin.com/in/cristianvalim/).
 
-## Status do Projeto
+## :white_check_mark: Status do Projeto
 
 O projeto está estável e funcional.
 
-## Tecnologias Utilizadas
+## :rocket: Tecnologias Utilizadas
 
 - JavaScript
 - ReactJS
