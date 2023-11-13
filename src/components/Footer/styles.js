@@ -9,9 +9,10 @@ export const Container = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   
-  position: absolute;
-  bottom: 0px;
-
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  
   display: flex;
   gap: .5rem;
 
