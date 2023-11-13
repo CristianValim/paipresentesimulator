@@ -5,6 +5,7 @@ export const Container = styled.div`
     font-family: 'Roboto', sans-serif;
             color: #141414;
 
+    overflow-y: hidden;
     padding: 4rem;
     border-radius: 2rem;
     background: rgba(250, 250, 250, 0.7);

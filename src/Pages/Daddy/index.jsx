@@ -51,6 +51,7 @@ export function Daddy() {
           />
           <Button onClick={handleButtonClick}/>
         </div>
+        <Footer />
     </Container>
   );
 }
