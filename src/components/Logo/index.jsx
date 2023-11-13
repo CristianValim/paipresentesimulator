@@ -5,6 +5,6 @@ export function Logo() {
     return(
         <Container
         src={logo}
-        alt="Pai Ausente Simulator" />
+        alt="Pai Presente Simulator" />
     )
 }

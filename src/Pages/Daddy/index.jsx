@@ -6,6 +6,8 @@ import { Container } from './styles.js';
 import { Button } from '../../components/Button/index.jsx';
 import { Logo } from '../../components/Logo/index.jsx';
 import { Menu } from '../../components/Menu/index.jsx';
+import { Footer } from '../../components/Footer/index.jsx';
+
 // Importa a função 'getAudioPath' de um módulo específico
 import { getAudioPath } from '../../Modules/getAudioPath.jsx';
 
@@ -41,13 +43,14 @@ export function Daddy() {
         <Logo />
 
         {/* Renderiza o componente 'Menu' e passa propriedades e função de callback */}
-        <Menu 
-          initialGenderProp={selectedData.selectedGender}
-          initialNeedProp={selectedData.selectedNeed}
-          onSelectionChange={handleSelectionChange}
-        />
-
+        <div className="flex">
+          <Menu 
+            initialGenderProp={selectedData.selectedGender}
+            initialNeedProp={selectedData.selectedNeed}
+            onSelectionChange={handleSelectionChange}
+          />
           <Button onClick={handleButtonClick}/>
+        </div>
     </Container>
   );
 }

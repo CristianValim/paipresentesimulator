@@ -8,6 +8,7 @@ export default createGlobalStyle`
       box-sizing: border-box;
       -webkit-font-smoothing : antialiased;
       -moz-osx-font-smoothing: grayscale;
+      overflow-y: auto;
     }
     
     :root {
@@ -23,6 +24,7 @@ export default createGlobalStyle`
     }
 
     a {
+      color: inherit;
       text-decoration: none;
     }
 

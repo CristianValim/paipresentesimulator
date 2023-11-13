@@ -1,5 +1,5 @@
 {
-  "homepage":"https://cristianvalim.github.io/paipresentesimulator",
+  "homepage": "https://cristianvalim.github.io/paipresentesimulator",
   "name": "paipresentesimulator",
   "private": true,
   "version": "0.0.0",
@@ -15,6 +15,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "styled-components": "^6.1.1"
   },
   "devDependencies": {
